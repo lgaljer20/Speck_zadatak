@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.lijevi {
+  flex: 1 0 20%;
+}
+
+.sredina {
+  flex: 1 0 60%;
+  margin-right: 1%;
+}
+
+.desni {
+  flex: 1 0 20%;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 30px;
+}
+
+#tekst:focus {
+  padding: 10px;
+  border: 2px solid #ffcccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 200px;
+  height: 5px;
+  outline: none;
+}
+#tekst {
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 200px;
+  height: 5px;
+}
+
+#add {
+  height: 28px;
+  background-color: #ffcccc;
+  border-radius: 4px;
+  width: 75px;
+  color: red;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#remove {
+  border: none;
+  background-color: transparent;
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 375px;
+}
+
+#add:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+#itemi {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#itemi div {
+  margin-top: 5%;
+  width: 50%;
+  height: 75px;
+  border-radius: 100px;
+  background-color: white;
+  border-color: black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+}
